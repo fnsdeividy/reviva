@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Terapêutico Reviva</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top bar with contact info -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <a href="tel:+5521965670473"><i class="fas fa-phone"></i> (21) 96567-0473</a>
+                <a href="mailto:revivaclinica@gmail.com"><i class="fas fa-envelope"></i> revivaclinica@gmail.com</a>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5521965670473" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header with logo and navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Centro Terapêutico Reviva">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#equipe">Nossa Equipe</a></li>
+                    <li><a href="#convenios">Convênios</a></li>
+                    <li><a href="#estrutura">Estrutura</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero banner -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>Tratamentos Personalizados</h1>
+                    <p>Abordagens terapêuticas especializadas para dependência química</p>
+                    <a href="#especialidades" class="btn btn-primary">Conhecer Especialidades</a>
+                    <a href="https://wa.me/5521965670473" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Agende pelo WhatsApp</a>
+                </div>
+                <div class="slide-image" style="background-image: url('assets/images/patio-central.jpeg') "></div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- About section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre o Centro Terapêutico Reviva</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>O Centro Terapêutico Reviva nasceu com o compromisso de oferecer tratamentos de excelência em saúde mental, em um ambiente acolhedor e humanizado.</p>
+                    <p>Nossa missão é proporcionar atendimento de qualidade, com profissionais altamente qualificados e uma abordagem personalizada que respeita a individualidade de cada paciente.</p>
+                    <p>Contamos com uma equipe multidisciplinar especializada e uma estrutura moderna para garantir o melhor cuidado possível em cada etapa do seu tratamento.</p>
+                    <a href="#contato" class="btn btn-secondary">Entre em Contato</a>
+                    <a href="https://wa.me/5521965670473" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Fale pelo WhatsApp</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/campo-jogando.jpeg" alt="Centro Terapêutico Reviva">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialties section -->
+    <section id="especialidades" class="specialties">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tratamento Especializado</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="specialties-grid">
+                <div class="specialty-card">
+                    <div class="specialty-icon">
+                        <i class="fas fa-wine-bottle"></i>
+                    </div>
+                    <h3>Tratamento de Alcoolismo</h3>
+                    <p>Programa especializado para dependência de álcool, com acompanhamento médico e psicológico.</p>
+                </div>
+                <div class="specialty-card">
+                    <div class="specialty-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3>Dependência Química</h3>
+                    <p>Tratamento personalizado para dependência de drogas ilícitas e medicamentos.</p>
+                </div>
+                <div class="specialty-card">
+                    <div class="specialty-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Terapia Cognitivo-Comportamental</h3>
+                    <p>Abordagem terapêutica focada na mudança de padrões de pensamento e comportamento.</p>
+                </div>
+                <div class="specialty-card">
+                    <div class="specialty-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Grupos de Apoio</h3>
+                    <p>Encontros terapêuticos em grupo para fortalecer o processo de recuperação e prevenção de recaídas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team section -->
+    <section id="equipe" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossa Equipe</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="team-slider">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/images/natalia.jpeg" alt="Dra. Natália de Negreiros Lyrio" class="first-member-image">
+                    </div>
+                    <div class="member-info">
+                        <h3>Dra. Natália de Negreiros</h3>
+                        <p class="member-title">Psiquiatra </p>
+                        <p class="member-desc">Especialista em Psiquiatria com foco em dependência química e transtornos associados.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/images/flavia.jpeg" alt="Luciana Costa">
+                    </div>
+                    <div class="member-info">
+                        <h3>Flávia Silva</h3>
+                        <p class="member-title">Enfermeira</p>
+                        <p class="member-desc">        Responsável pelo acolhimento, administração de medicamentos e apoio diário aos pacientes durante o processo de reabilitação.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/images/katia.jpeg" alt="Karol">
+                    </div>
+                    <div class="member-info">
+                        <h3>Kátia Regina</h3>
+                        <p class="member-title">Psicóloga</p>
+                        <p class="member-desc">Especialista em dependência química com abordagem em Terapia Cognitivo-Comportamental.</p>
+                    </div>
+                   
+                    
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/images/ana-luiza.jpeg" alt="Karol">
+                    </div>
+                  
+                    <div class="member-info">
+                        <h3>Ana Luíza Melo</h3>
+                        <p class="member-title">Assistente Social</p>
+                        <p class="member-desc">Especialista em intervenções sociais e reinserção de pacientes em recuperação.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Health Insurance section -->
+    <section id="convenios" class="insurance">
+        <div class="container">
+            <div class="section-header">
+                <h2>Convênios</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="insurance-content">
+                <p class="insurance-intro">O Centro Terapêutico Reviva tem convênio com os principais planos de saúde do mercado, facilitando o seu acesso aos nossos serviços.</p>
+                
+                <div class="insurance-plans">
+                    <div class="insurance-plan">
+                        <img src="assets/images/logo-unimed.png" alt="Unimed" class="insurance-logo">
+                        <h3>Unimed</h3>
+                        <p>Atendemos todos os planos Unimed</p>
+                    </div>
+                    <div class="insurance-plan">
+                        <img style="width: 50px; height: 50px; margin-top: -8px;" src="assets/images/bradesco.jpeg" alt="Bradesco Saúde" class="insurance-logo">
+                        <h3>Bradesco Saúde</h3>
+                        <p>Atendemos todos os planos Bradesco Saúde</p>
+                    </div>
+                </div>
+                
+                <div class="insurance-note">
+                    <p><i class="fas fa-info-circle"></i> Para mais informações sobre cobertura e carterinha, entre em contato conosco.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Structure section -->
+    <section id="estrutura" class="structure">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossa Estrutura</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="structure-gallery">
+                <div class="gallery-item">
+                    <img src="assets/images/campo.jpeg" alt="Recepção">
+                    <div class="gallery-overlay">
+                        <h3>Campo</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/piscina.jpeg" alt="Consultório">
+                    <div class="gallery-overlay">
+                        <h3>Piscina</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/quarto.jpeg" alt="Sala de Terapia em Grupo">
+                    <div class="gallery-overlay">
+                        <h3>Quarto</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/jogos.jpeg" alt="Sala de Jogos">
+                    <div class="gallery-overlay">
+                        <h3>Sala de Jogos</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/cozinha.jpeg" alt="Sala tereapeutica">
+                    <div class="gallery-overlay">
+                        <h3>Cozinha</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/enfermaria.jpeg" alt="Enfermaria">
+                    <div class="gallery-overlay">
+                        <h3>Enfermaria</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <div class="divider"></div>
+                <div class="contact-form">
+                    <h3>Agende sua Consulta</h3>
+                    <form id="appointment-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Selecione o serviço</option>
+                                <option value="alcoolismo">Tratamento de Alcoolismo</option>
+                                <option value="drogas">Tratamento de Dependência Química</option>
+                                <option value="terapia">Terapia Cognitivo-Comportamental</option>
+                                <option value="grupo">Grupos de Apoio</option>
+                                <option value="avaliacao">Avaliação Inicial</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Mensagem" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        <a href="https://wa.me/5521965670473" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Prefere WhatsApp?</a>
+                    </form>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Map section -->
+    <section class="map">
+        <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.4025393998656!2d-43.4642874!3d-22.7408928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99661b74fa4211%3A0x4b2cf4d04f99173a!2sEstr.%20Carlos%20Sampaio%2C%20530%20-%20Adrian%C3%B3polis%2C%20Nova%20Igua%C3%A7u%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1717934012000!5m2!1spt-BR!2sbr" 
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#equipe">Nossa Equipe</a></li>
+                        <li><a href="#convenios">Convênios</a></li>
+                        <li><a href="#estrutura">Estrutura</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Estr. Carlos Sampaio №530 Adrianópolis - Nova Iguaçu</p>
+                    <p><i class="fas fa-phone"></i> (21) 97036-1708</p>
+                    <p><i class="fas fa-envelope"></i> revivaclinica@gmail.com</p>
+                    <p><a href="https://wa.me/5521965670473" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i> (21) 96567-0473 - Clique para conversar</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Centro Terapêutico Reviva. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5521965670473" target="_blank" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
